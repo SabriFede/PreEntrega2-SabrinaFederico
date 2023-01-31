@@ -6,17 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colegio Corazón Eucarístico de Jesús</title>
+    <!-- link a BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- link a mi CSS luego de linkear a BS, para poder "pisarlo" -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/logo.jpeg" type="image/x-icon">
 </head>
 
-<body>
-    <header id="encabezado">
-        <h1>Colegio Corazón Eucarístico de Jesús - Haedo</h1>
 
-        <div>
-            <img class="logo" src="img/logo.jpeg" alt="Logo colegio eucaristico">
+<body class="container-fluid">
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <img class="logo" src="img/logo.jpeg" alt="Logo colegio eucaristico">
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-2 text-secondary">Inicio</a></li>
+              <li><a href="html/inicial.html" class="nav-link px-2 text-white">Nivel Inicial</a></li>
+              <li><a href="html/primaria.html" class="nav-link px-2 text-white">Primaria</a></li>
+              <li><a href="html/secundaria.html" class="nav-link px-2 text-white">Secundaria</a></li>
+              <li><a href="html/contacto.html" class="nav-link px-2 text-white">Contacto</a></li>
+            </ul>
+    
+    
+            <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-2">Ingreso Estudiantes</button>
+              <button type="button" class="btn btn-warning">Ingreso Docentes</button>
+            </div>
+          </div>
         </div>
+      </header>
+    
+      <div class="b-example-divider"></div>
+    
+    
+    
+    
+    <!-- <header id="encabezado">
+        <a href="index.html" class="tituloPrincipal">
+            <h1>Colegio Corazón Eucarístico de Jesús - Haedo</h1>
+            <img class="logo" src="img/logo.jpeg" alt="Logo colegio eucaristico">
+        </a>
+
 
         <nav>
             <ul>
@@ -29,7 +63,17 @@
 
         </nav>
 
-    </header>
+    </header> -->
+
+    <section class="hero d-flex flex-column justify-content-center align-items-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <h2>Colegio Corazón Eucarístico de Jesús - Haedo</h2>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <main class="textos">
@@ -79,6 +123,11 @@
             referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     </footer>
+
+    <!-- script cierre link a BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 
 </body>
 

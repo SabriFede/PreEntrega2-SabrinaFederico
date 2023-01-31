@@ -11,7 +11,7 @@ h1 {
 
 
 body {
-    background-color: #9fa8da;
+    background-color: white;
 }
 
 header ul li {
@@ -44,12 +44,12 @@ nav ul li a {
 
 /* Es el logo del header. Lo acomode con position porque sino quedaba en cualquier lado. No se si hay otra forma de hacerlo sin usar flexbox */
 .logo {
-    width: 100px;
-    height: 100px;
-    border: solid black 1px;
-    position: relative;
+    width: 70px;
+    height: 70px;
+    /* border: solid black 1px; */
+    /* position: relative;
     bottom: 80px;
-    left: 250px;
+    left: 250px; */
 }
 
 
