@@ -4,10 +4,10 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-h1 {
+/* h1 {
     color: #673ab7;
     text-align: center;
-}
+} */
 
 
 body {
@@ -26,6 +26,41 @@ ul li a:hover {
 
 .b-example-divider {
     height: 48px;
+}
+
+.hero {
+    width: 100%;
+    height: calc(100vh - 10rem);
+    position: relative;
+    /* display: grid;
+    grid-template-areas: 
+    "img h2 h2 h2"
+    "img p p p"
+    "img p p p" */
+}
+
+.hero h2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.hero h2 span {
+font-weight: 700;
+position: relative;
+padding: 0,5px;
+}
+
+.hero h2 span::before {
+    content: "";
+    background-color: #1183ca;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 4px;
+    height: 30%;
+    z-index: -1;
 }
 
 /* header ul li {
