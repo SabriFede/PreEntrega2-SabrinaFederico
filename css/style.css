@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-    color:  #673ab7 ;
+    color: #673ab7;
     text-align: center;
 }
 
@@ -14,7 +14,21 @@ body {
     background-color: white;
 }
 
-header ul li {
+
+ul li a {
+    margin: 10px;
+    transition: all 0, 3s ease;
+}
+
+ul li a:hover {
+    color: #0ba6ff !important;
+}
+
+.b-example-divider {
+    height: 48px;
+}
+
+/* header ul li {
     display: inline-block;
     margin: 20px;
 }
@@ -22,16 +36,14 @@ header ul li {
 nav ul li a {
     display: inline-block;
     margin: 20px;
-    color:   #673ab7  ;
+    color: #673ab7;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
     border: black 1px dotted;
     position: relative;
     /* Lo acomode con position porque sino quedaba en cualquier lado. No se si hay  otra forma de hacerlo sin usar flexfox o grid */
-    left: 220px;
-    bottom: 80px;
-}
+   
 
 
 #encabezado {
