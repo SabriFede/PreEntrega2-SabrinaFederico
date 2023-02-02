@@ -11,7 +11,7 @@ body {
 
 ul li a {
     margin: 10px;
-    transition: all 0, 3s ease;
+    transition: all 0.3s ease;
 }
 
 ul li a:hover {
@@ -22,13 +22,6 @@ ul li a:hover {
     height: 48px;
 }
 
-.fondo {
-    background-image: url(../img/corazonportada.jpg);
-    height: 80vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 h1 {
     text-align: center;
@@ -40,33 +33,6 @@ hero {
     height: calc(100vh - 10rem);
     position: relative;
 }
-
-/* .hero h2 {
-    margin-bottom: 10px;
-    font-size: 40px;
-    font-weight: 500;
-}
-
-.hero h2 span {
-font-weight: 700;
-position: relative;
-padding: 0,5px;
-}
-
-.hero h2 span::before {
-    content: "";
-    background-color: #1183ca;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    border-radius: 4px;
-    height: 30%;
-    z-index: -1;
-} */
-
-
-
 
 .logo {
     width: 100px;
@@ -110,6 +76,12 @@ section ul {
     border-radius: 5px;
     color: black;
     font-size: 20px;
+    transition: all 0.3s ease;
+    width: 120px;
+}
+
+.cursos:hover {
+background-color: #aed6f1;
 }
 
 
