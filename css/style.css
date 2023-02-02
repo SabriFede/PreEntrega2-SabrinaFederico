@@ -62,31 +62,8 @@ padding: 0,5px;
 } */
 
 
-/* header ul li {
-    display: inline-block;
-    margin: 20px;
-}
-
-nav ul li a {
-    display: inline-block;
-    margin: 20px;
-    color: #673ab7;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: black 1px dotted;
-    position: relative;
-    /* Lo acomode con position porque sino quedaba en cualquier lado. No se si hay  otra forma de hacerlo sin usar flexfox o grid */
-   
 
 
-#encabezado {
-    border: solid black 4px;
-    background-color: white;
-    padding: 10px;
-    height: 200px;
-
-}
 .logo {
     width: 100px;
     height: 100px;
@@ -112,10 +89,9 @@ section ul {
     font-weight: bolder;
 }
 
-
-
-.divPrincipal {
+.informacionCursos {
     text-align: center;
+    font-size: 30px;
 }
 
 
@@ -124,7 +100,13 @@ section ul {
     text-align: center;
     margin: 10px;
     padding: 10px;
+    text-decoration: none;
+    background-color: #3498db;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
 }
+
 
 /* .contacto {
     /* border: black solid 2px;
@@ -140,9 +122,9 @@ section ul {
 }
 
 .carousel-item img {
-  width: auto;
-  height: 450px;
-  max-height: 450px;
+    width: auto;
+    height: 450px;
+    max-height: 450px;
 }
 
 /* FOOTER */
