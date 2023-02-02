@@ -28,18 +28,26 @@ ul li a:hover {
     height: 48px;
 }
 
-.hero {
+.fondo {
+    background-image: url(../img/corazonportada.jpg);
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .hero {
     width: 100%;
     height: calc(100vh - 10rem);
     position: relative;
-    /* display: grid;
+    ******** display: grid;
     grid-template-areas: 
     "img h2 h2 h2"
     "img p p p"
-    "img p p p" */
-}
+    "img p p p" *********
+} */
 
-.hero h2 {
+/* .hero h2 {
     margin-bottom: 10px;
     font-size: 40px;
     font-weight: 500;
@@ -61,7 +69,8 @@ padding: 0,5px;
     border-radius: 4px;
     height: 30%;
     z-index: -1;
-}
+} */
+
 
 /* header ul li {
     display: inline-block;
@@ -88,15 +97,9 @@ nav ul li a {
     height: 200px;
 
 }
-
-/* Es el logo del header. Lo acomode con position porque sino quedaba en cualquier lado. No se si hay otra forma de hacerlo sin usar flexbox */
 .logo {
-    width: 70px;
-    height: 70px;
-    /* border: solid black 1px; */
-    /* position: relative;
-    bottom: 80px;
-    left: 250px; */
+    width: 100px;
+    height: 100px;
 }
 
 
