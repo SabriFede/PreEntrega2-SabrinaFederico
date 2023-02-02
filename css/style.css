@@ -30,6 +30,10 @@ ul li a:hover {
     background-size: cover;
 }
 
+h1 {
+    text-align: center;
+} 
+
 
 hero {
     width: 100%;
@@ -87,6 +91,7 @@ section ul {
     padding: 30px;
     font-size: larger;
     font-weight: bolder;
+    list-style-type: none;
 }
 
 .informacionCursos {
@@ -108,18 +113,6 @@ section ul {
 }
 
 
-/* .contacto {
-    /* border: black solid 2px;
-    height: auto;
-    width: fit-content;
-    padding: 30px;
-}*/
-
-.contenedor {
-    display: grid;
-    grid-template-areas:
-        "div form"
-}
 
 .carousel-item img {
     width: auto;
@@ -142,7 +135,3 @@ footer ul li a {
     color: red;
     text-decoration: none;
 }
-
-/* form {
-    text-align: center;
-} */
