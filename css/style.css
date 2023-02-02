@@ -4,12 +4,6 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-/* h1 {
-    color: #673ab7;
-    text-align: center;
-} */
-
-
 body {
     background-color: white;
 }
@@ -36,16 +30,12 @@ ul li a:hover {
     background-size: cover;
 }
 
-/* .hero {
+
+hero {
     width: 100%;
     height: calc(100vh - 10rem);
     position: relative;
-    ******** display: grid;
-    grid-template-areas: 
-    "img h2 h2 h2"
-    "img p p p"
-    "img p p p" *********
-} */
+}
 
 /* .hero h2 {
     margin-bottom: 10px;
@@ -135,13 +125,12 @@ section ul {
     padding: 10px;
 }
 
-.contacto {
-    /* border: black solid 2px; */
+/* .contacto {
+    /* border: black solid 2px;
     height: auto;
     width: fit-content;
     padding: 30px;
-
-}
+}*/
 
 .contenedor {
     display: grid;
